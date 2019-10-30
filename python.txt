@@ -1,0 +1,143 @@
+'''a=2000
+while(a<3200):
+    if(a%7==0 and a%5!=0):
+        print(a)
+    a+=1'''
+   
+'''factorial=1
+number=int(input("give a number_ "))
+n=0
+while(n<number):
+    factorial=factorial*number
+    number-=1
+    print(factorial)'''
+
+'''
+a=int(input("enter no"))
+x=1
+y=1
+n=0
+while(a>0):
+    n=y,x
+    y+=1
+    x=y*y
+    a-=1
+    print(n)'''
+   
+'''number=int(input("give a number_"))
+a=0
+b=0
+while(number>0):
+    a=number%10
+    number=int(number/10)
+    b=(b*10)+a
+print(b)'''
+
+'''number=int(input("give no"))
+a=0
+while(number>0):
+    a+=number
+    number-=1
+    print(a)
+print("your result="+a) '''
+
+'''numbers=int(input("give no for addition "))
+n=0  
+sum=0 
+while (numbers>n):
+    num=int(input(" enter a no. to add"))
+    sum+=num 
+    numbers-=1
+print(sum) '''
+
+'''a=0
+b=0 
+number=int(input("give no."))
+while (number>0):
+    print("enter the number")
+    num=int(input())
+    if(num%2==0):
+        a+=num
+    else:
+        b+=num 
+    number=number-1
+print(a)
+print(b) '''
+
+
+'''number=int(input("give a no."))
+while (number>0):
+    print(number)
+    number-=1'''
+    
+    
+'''n=0 
+a=0
+b=0
+number=int(input("enter a no to get the sum of first and last digits " ))
+b=number%10
+a=int(number/10)
+while(a>10):
+    a=int(a/10)
+    n=a+b
+print(n)'''
+
+
+'''n=0
+a=0
+b=0
+number=int(input("enter a no to get the product of first and last digits " ))
+b=number%10
+a=int(number/10)
+while(a>10):
+    a=int(a/10)
+    n=a*b
+print(n)'''
+
+'''number=int(input("enter a one digit no."))
+if(number==0):
+    print(zero)
+elif(number==1):
+    print("one")
+elif(number==2):
+    print("two")
+elif(number==3):
+    print("three")
+elif(number==4):
+    print("four")
+elif(number==5):
+    print("five")
+elif(number==6):
+    print("six")
+elif(number==7):
+    print("seven")
+elif(number==8):
+    print("eight")
+elif(number==9):
+    print("nine")
+else:
+    print("the number is not one digit")'''
+
+'''a=int(input("enter the no."))
+b=int(input("enter the power"))
+result=1 
+while (b>0):
+    result*=a
+    b-=1
+print(result)'''
+
+'''a=2
+b=True 
+number=int(input("enter a no."))
+while number>a:
+    print(a)
+    if(number%a==0):
+        b=False
+        break
+    a+=1
+if(b==False):
+    print("the number is not prime")
+else:
+    print("number is prime")'''
+        
+
